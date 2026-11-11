@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 
 /**
- * This class represents a thread that checks an array to determine if it can match a given target value.
+ * ThreadCheckArray class that searches for a subset sum using an
+ * ArrayList {@code <Integer>} instead of a primitive integer array.
  */
 public class ThreadCheckArray implements Runnable {
     /**
